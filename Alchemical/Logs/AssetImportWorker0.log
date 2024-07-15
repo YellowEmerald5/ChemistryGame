@@ -1,0 +1,1601 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.30f1 (70558241b701) revision 7361922'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'no' Physical Memory: 32581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\2022.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/ChemistryGame/Alchemical
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50693
+Successfully changed project path to: E:/ChemistryGame/Alchemical
+E:/ChemistryGame/Alchemical
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37996] Host "[IP] 192.168.13.76 [Port] 0 [Flags] 2 [Guid] 594293757 [EditorId] 594293757 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F8DCKEC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [37996] Host "[IP] 192.168.13.76 [Port] 0 [Flags] 2 [Guid] 594293757 [EditorId] 594293757 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F8DCKEC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 27 workers.
+Refreshing native plugins compatible for Editor in 1602.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.30f1 (70558241b701)
+[Subsystems] Discovering subsystems at path D:/Program Files/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/ChemistryGame/Alchemical/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12012 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'D:/Program Files/2022.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/2022.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program Files/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.297155 seconds.
+- Loaded All Assemblies, in  5.808 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 182 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.476 seconds
+Domain Reload Profiling: 6284ms
+	BeginReloadAssembly (4019ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (354ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (324ms)
+	LoadAllAssembliesAndSetupDomain (1104ms)
+		LoadAssemblies (4019ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1102ms)
+			TypeCache.Refresh (1101ms)
+				TypeCache.ScanAssembly (879ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (446ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (347ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.182 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.420 seconds
+Domain Reload Profiling: 7602ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (7039ms)
+		LoadAssemblies (6594ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (506ms)
+			TypeCache.Refresh (488ms)
+				TypeCache.ScanAssembly (439ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (420ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (313ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4401 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (68.4 KB). Loaded Objects now: 4854.
+Memory consumption went from 159.2 MB to 159.2 MB.
+Total: 2.091900 ms (FindLiveObjects: 0.178500 ms CreateObjectMapping: 0.084700 ms MarkObjects: 1.733500 ms  DeleteObjects: 0.094500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1515.474155 seconds.
+  path: Assets/Objects/Circle.prefab
+  artifactKey: Guid(109dc2947c2b9b7448274e68e65dadaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Circle.prefab using Guid(109dc2947c2b9b7448274e68e65dadaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5407b1f7b7544a13a45e0993abae6a52') in 0.108981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 58.766187 seconds.
+  path: Assets/Objects/Elements
+  artifactKey: Guid(895de6fd1df49514d9482966611b9b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements using Guid(895de6fd1df49514d9482966611b9b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a701d74e7ce7d34251ac0c08244d2848') in 0.000315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1250.248872 seconds.
+  path: Assets/Objects/BlackCircle.prefab
+  artifactKey: Guid(ee78ee5b160dadc47b7e16cbb76c484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/BlackCircle.prefab using Guid(ee78ee5b160dadc47b7e16cbb76c484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23df23e1ddbf32d63c8a9a1d2ac77177') in 0.018965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.281 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.476 seconds
+Domain Reload Profiling: 757ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (235ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (42.1 KB). Loaded Objects now: 4868.
+Memory consumption went from 152.5 MB to 152.5 MB.
+Total: 2.155500 ms (FindLiveObjects: 0.165900 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.884900 ms  DeleteObjects: 0.057100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.644 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  5.833 seconds
+Domain Reload Profiling: 7477ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (1435ms)
+		LoadAssemblies (1489ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (5833ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (233ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (42.1 KB). Loaded Objects now: 4872.
+Memory consumption went from 152.8 MB to 152.7 MB.
+Total: 1.982600 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.070300 ms MarkObjects: 1.688300 ms  DeleteObjects: 0.042400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1644.111551 seconds.
+  path: Assets/Objects/BlackCircle.prefab
+  artifactKey: Guid(ee78ee5b160dadc47b7e16cbb76c484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/BlackCircle.prefab using Guid(ee78ee5b160dadc47b7e16cbb76c484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88467c34517d66e1fa41c1a88a59742e') in 0.055297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.270 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.476 seconds
+Domain Reload Profiling: 746ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (235ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (42.6 KB). Loaded Objects now: 4875.
+Memory consumption went from 152.5 MB to 152.5 MB.
+Total: 2.060700 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.060700 ms MarkObjects: 1.775000 ms  DeleteObjects: 0.048600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 134.578037 seconds.
+  path: Assets/Objects/BlackCircle.prefab
+  artifactKey: Guid(ee78ee5b160dadc47b7e16cbb76c484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/BlackCircle.prefab using Guid(ee78ee5b160dadc47b7e16cbb76c484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1f5dcbfd6faabb61e7de87a53dc6ba') in 0.040275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 593.452448 seconds.
+  path: Assets/Objects/Elements/Circle.prefab
+  artifactKey: Guid(2b35f263c05eb0b4dae8c57fb82ef800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle.prefab using Guid(2b35f263c05eb0b4dae8c57fb82ef800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935bca04e728cf6a160335dd34abded2') in 0.005754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.807435 seconds.
+  path: Assets/Objects/Elements/Circle 1.prefab
+  artifactKey: Guid(de370c91669ce0c40a445f212179edd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 1.prefab using Guid(de370c91669ce0c40a445f212179edd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906c6c7346db1f2b2e78a04439811494') in 0.003709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.274661 seconds.
+  path: Assets/Objects/Elements/Circle 2.prefab
+  artifactKey: Guid(a60b953a90b326549be7e6b75ef9cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 2.prefab using Guid(a60b953a90b326549be7e6b75ef9cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b508efb8d57fb68f6dfe0f4384b2fc7') in 0.003873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.156753 seconds.
+  path: Assets/Objects/Elements/Circle 3.prefab
+  artifactKey: Guid(a7269f70d4ad234409ef5599d43d8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 3.prefab using Guid(a7269f70d4ad234409ef5599d43d8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906c873e8238afe54b262f94e6c26a4f') in 0.003756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.149416 seconds.
+  path: Assets/Objects/Elements/Circle 4.prefab
+  artifactKey: Guid(183764dc4f2fa5e48baccde3fff1e82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 4.prefab using Guid(183764dc4f2fa5e48baccde3fff1e82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e96ac548c78de5e3bd51e6a1ab671b6') in 0.003711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.142464 seconds.
+  path: Assets/Objects/Elements/Circle 5.prefab
+  artifactKey: Guid(47e80a44c095eaf4aa8cc7bf3a50ed74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 5.prefab using Guid(47e80a44c095eaf4aa8cc7bf3a50ed74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba73e1ca1cb1852093f5f8eb088cd09e') in 0.003885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.154456 seconds.
+  path: Assets/Objects/Elements/Circle 6.prefab
+  artifactKey: Guid(708590e86ac3ca64686dddadd26ca274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 6.prefab using Guid(708590e86ac3ca64686dddadd26ca274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e5cccf3b953daac02bb2ae66b02f23') in 0.003701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.366731 seconds.
+  path: Assets/Objects/Elements/Circle 7.prefab
+  artifactKey: Guid(6f29d7a38e6db044cb18b82a941f1910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 7.prefab using Guid(6f29d7a38e6db044cb18b82a941f1910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41aaef11923a191826be459f23cacc4b') in 0.003570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.161776 seconds.
+  path: Assets/Objects/Elements/Circle 8.prefab
+  artifactKey: Guid(531802ca266867749b38293fd95efabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 8.prefab using Guid(531802ca266867749b38293fd95efabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35da256547a8b78fce9353d52e63a586') in 0.003687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.173026 seconds.
+  path: Assets/Objects/Elements/Circle 9.prefab
+  artifactKey: Guid(c2a3b233b330e5346b8dee1613775000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 9.prefab using Guid(c2a3b233b330e5346b8dee1613775000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a8d9609e858c27827fc186829d5bae') in 0.003505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.153143 seconds.
+  path: Assets/Objects/Elements/Circle 10.prefab
+  artifactKey: Guid(8a361311accfd2a4097790a6d24b2256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 10.prefab using Guid(8a361311accfd2a4097790a6d24b2256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6092c91acf718d0ac144382301a89a') in 0.003522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.166177 seconds.
+  path: Assets/Objects/Elements/Circle 11.prefab
+  artifactKey: Guid(3ac897c172dd7df4eb27a7c32f3e6b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 11.prefab using Guid(3ac897c172dd7df4eb27a7c32f3e6b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388e909cd761a254a8aafee800959454') in 0.004106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.145833 seconds.
+  path: Assets/Objects/Elements/Circle 12.prefab
+  artifactKey: Guid(d5571ff774fc03b4badd4fbb4ab86641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 12.prefab using Guid(d5571ff774fc03b4badd4fbb4ab86641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2e7b9d5c3140c6c76f3558c347292b') in 0.004022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.161994 seconds.
+  path: Assets/Objects/Elements/Circle 13.prefab
+  artifactKey: Guid(bc68192ecf6dc974aad75fb0a1fb3003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 13.prefab using Guid(bc68192ecf6dc974aad75fb0a1fb3003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219ff3422b9dac57efdba238cb547f07') in 0.003979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.160949 seconds.
+  path: Assets/Objects/Elements/Circle 14.prefab
+  artifactKey: Guid(28da30d42dd8b464c99969be9fd4d904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 14.prefab using Guid(28da30d42dd8b464c99969be9fd4d904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e7282b20b83a54c0854a0ed249cb4b') in 0.003535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.183777 seconds.
+  path: Assets/Objects/Elements/Circle 15.prefab
+  artifactKey: Guid(bfebed132fca94d4fa69e1ced8574e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 15.prefab using Guid(bfebed132fca94d4fa69e1ced8574e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bed1fa6d40e1efa07b9f151b5578dcd') in 0.003536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.052843 seconds.
+  path: Assets/Objects/Elements/Circle 16.prefab
+  artifactKey: Guid(e96b01d313a7e704fbb09c1a903bc1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 16.prefab using Guid(e96b01d313a7e704fbb09c1a903bc1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dd9ad2428d0ab14b95924bce95cbd2') in 0.004433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.158624 seconds.
+  path: Assets/Objects/Elements/Circle 17.prefab
+  artifactKey: Guid(c9ef36f326cf13748a48cd4bef09638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 17.prefab using Guid(c9ef36f326cf13748a48cd4bef09638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567d183a8e89f3eab636b974f6631b77') in 0.004303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.157447 seconds.
+  path: Assets/Objects/Elements/Circle 18.prefab
+  artifactKey: Guid(d07d5646eb67d2f41b173624c5942adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 18.prefab using Guid(d07d5646eb67d2f41b173624c5942adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae9833b657320fb8bed193ea29c7f62') in 0.004156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.140769 seconds.
+  path: Assets/Objects/Elements/Circle 19.prefab
+  artifactKey: Guid(13e68dcc61d8b554089e065f1f7b66df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 19.prefab using Guid(13e68dcc61d8b554089e065f1f7b66df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73c9a03f66a5af29fe5af19ba8d5cc3') in 0.004381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.148876 seconds.
+  path: Assets/Objects/Elements/Circle 20.prefab
+  artifactKey: Guid(b9a44aa7f919c494d8b1aef321c337f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 20.prefab using Guid(b9a44aa7f919c494d8b1aef321c337f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9808a89d18963ee6ad16b6aec348c902') in 0.004342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.148828 seconds.
+  path: Assets/Objects/Elements/Circle 21.prefab
+  artifactKey: Guid(9c884313b9ceeb840be3faa187ed1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 21.prefab using Guid(9c884313b9ceeb840be3faa187ed1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18d80fce5fb345ead6362758d38e02e') in 0.003363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 12.024366 seconds.
+  path: Assets/Objects/Elements/Circle 22.prefab
+  artifactKey: Guid(888c75e22e5c8034790fe10f7de7905f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 22.prefab using Guid(888c75e22e5c8034790fe10f7de7905f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f92f97ef1537cd8908e0b0833394b1d') in 0.003517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.172723 seconds.
+  path: Assets/Objects/Elements/Circle 23.prefab
+  artifactKey: Guid(0477fb159ffcfd34d9399600386ee39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 23.prefab using Guid(0477fb159ffcfd34d9399600386ee39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb6bbd51b5d13199d58c914195ff235') in 0.003670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.160293 seconds.
+  path: Assets/Objects/Elements/Circle 24.prefab
+  artifactKey: Guid(932f7c95f8fa4fa439b5494a53830fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 24.prefab using Guid(932f7c95f8fa4fa439b5494a53830fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac188114cfd3d722b4d67e0ef56bdd6') in 0.004214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.151925 seconds.
+  path: Assets/Objects/Elements/Circle 25.prefab
+  artifactKey: Guid(90201fac5fc3d71468eabaa49d70ba5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 25.prefab using Guid(90201fac5fc3d71468eabaa49d70ba5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958043e5e1d4143fbd2a95dd8ae2f5dc') in 0.003581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.153775 seconds.
+  path: Assets/Objects/Elements/Circle 26.prefab
+  artifactKey: Guid(14afb99e1312db442adb463e8afd8fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 26.prefab using Guid(14afb99e1312db442adb463e8afd8fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af22768d2efbc872f1f5c1b4ada1acf8') in 0.003621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.135432 seconds.
+  path: Assets/Objects/Elements/Circle 27.prefab
+  artifactKey: Guid(a5c22de8d096b9c4eb07877729cdaef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 27.prefab using Guid(a5c22de8d096b9c4eb07877729cdaef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7623af7c5f240285a15d99089409da42') in 0.003960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.144402 seconds.
+  path: Assets/Objects/Elements/Circle 28.prefab
+  artifactKey: Guid(60738026b55b42d47942e78a63b1ccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 28.prefab using Guid(60738026b55b42d47942e78a63b1ccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9935fcaebc9825081e328954dcff4d3') in 0.003702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.185812 seconds.
+  path: Assets/Objects/Elements/Circle 29.prefab
+  artifactKey: Guid(2bd6785ec042d6447a8a1eb9c7c4c629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 29.prefab using Guid(2bd6785ec042d6447a8a1eb9c7c4c629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e4047b629bb246b8d9b765e6503e4d') in 0.003968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.125256 seconds.
+  path: Assets/Objects/Elements/Circle 30.prefab
+  artifactKey: Guid(538e8adcdc0786e43a1c173ed8816115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 30.prefab using Guid(538e8adcdc0786e43a1c173ed8816115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5136c928946e7b5e172edef0c2e9d3f') in 0.005334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.150770 seconds.
+  path: Assets/Objects/Elements/Circle 31.prefab
+  artifactKey: Guid(ab2767b7fd123ba46b0716c6885568d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 31.prefab using Guid(ab2767b7fd123ba46b0716c6885568d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04996329c0def35ddc5a78833293d64') in 0.003864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.154116 seconds.
+  path: Assets/Objects/Elements/Circle 32.prefab
+  artifactKey: Guid(5011f040848fe014f9d9829d93b20fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 32.prefab using Guid(5011f040848fe014f9d9829d93b20fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebe812432020e06ffcb00de721a78f8') in 0.004017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.159916 seconds.
+  path: Assets/Objects/Elements/Circle 33.prefab
+  artifactKey: Guid(e251d7cc0838b9a4e94db06ffa8c5ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 33.prefab using Guid(e251d7cc0838b9a4e94db06ffa8c5ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151f43b0bbc2308cc0a9c2f3404794fd') in 0.003875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.158284 seconds.
+  path: Assets/Objects/Elements/Circle 34.prefab
+  artifactKey: Guid(addfb612e45d32845aa0e90c16a9ef5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 34.prefab using Guid(addfb612e45d32845aa0e90c16a9ef5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83332ae92f5eba4a0583c5af8f59f306') in 0.004086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.163005 seconds.
+  path: Assets/Objects/Elements/Circle 35.prefab
+  artifactKey: Guid(bf7f3f33f1b88984885b182e5b987053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 35.prefab using Guid(bf7f3f33f1b88984885b182e5b987053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406fe19ee883a3cec3a509e965048fdd') in 0.003714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.161258 seconds.
+  path: Assets/Objects/Elements/Circle 36.prefab
+  artifactKey: Guid(9e4798b5a0ec18548a7d538d2b9d86a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 36.prefab using Guid(9e4798b5a0ec18548a7d538d2b9d86a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee469f0379e4875935c6cc4b969a2305') in 0.004064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.174278 seconds.
+  path: Assets/Objects/Elements/Circle 37.prefab
+  artifactKey: Guid(ee76b4b1e1a20cb47ae2848d94b4b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 37.prefab using Guid(ee76b4b1e1a20cb47ae2848d94b4b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157ea1aaeaa108d1a28dac97d457edce') in 0.004371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.172232 seconds.
+  path: Assets/Objects/Elements/Circle 38.prefab
+  artifactKey: Guid(c05af7bbfdcd7394db77e691805731eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 38.prefab using Guid(c05af7bbfdcd7394db77e691805731eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e890504550380f69870ccc23a19622ec') in 0.004036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.188665 seconds.
+  path: Assets/Objects/Elements/Circle 39.prefab
+  artifactKey: Guid(0a8ef3f71685eb54b803b23832dbe3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 39.prefab using Guid(0a8ef3f71685eb54b803b23832dbe3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b515caad005cde70599d48b1bd173feb') in 0.004087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.169289 seconds.
+  path: Assets/Objects/Elements/Circle 40.prefab
+  artifactKey: Guid(8b7825c03bf56df4f9701b8ec338abcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 40.prefab using Guid(8b7825c03bf56df4f9701b8ec338abcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa21867c85e91259c8da99ef7890ab2') in 0.004131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.179804 seconds.
+  path: Assets/Objects/Elements/Circle 41.prefab
+  artifactKey: Guid(f6f21e13c6ffcc34f8ac89d5d1e7ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 41.prefab using Guid(f6f21e13c6ffcc34f8ac89d5d1e7ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19d34b88a47c256ee8ea68f1ec8d827') in 0.004072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.185585 seconds.
+  path: Assets/Objects/Elements/Circle 42.prefab
+  artifactKey: Guid(4296bf6404b165545a47ffa215a22531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 42.prefab using Guid(4296bf6404b165545a47ffa215a22531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044362cbc12cd0f4d357cd02196ca3a2') in 0.004200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.189774 seconds.
+  path: Assets/Objects/Elements/Circle 43.prefab
+  artifactKey: Guid(9da5570397147ed43a5f43279d9bd62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 43.prefab using Guid(9da5570397147ed43a5f43279d9bd62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18f416271b929f2e215a2e89a9ee084') in 0.003845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.190793 seconds.
+  path: Assets/Objects/Elements/Circle 44.prefab
+  artifactKey: Guid(80dd2bf7306fec744a2a385f238fbae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 44.prefab using Guid(80dd2bf7306fec744a2a385f238fbae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b4c7c696f63a288861c04678c027f9') in 0.003350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.177619 seconds.
+  path: Assets/Objects/Elements/Circle 45.prefab
+  artifactKey: Guid(b01a52bbabc682e478eb7d6aaacb7ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 45.prefab using Guid(b01a52bbabc682e478eb7d6aaacb7ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d42a063cbf1640cb1b79c05a937ef83') in 0.003380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.196064 seconds.
+  path: Assets/Objects/Elements/Circle 46.prefab
+  artifactKey: Guid(810532caa82f61a46b62d2ad688dd944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 46.prefab using Guid(810532caa82f61a46b62d2ad688dd944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4b1050cedd86c23a34d5e42114097c') in 0.003636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.190079 seconds.
+  path: Assets/Objects/Elements/Circle 47.prefab
+  artifactKey: Guid(1185e4e2405115b4787653cc79918b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 47.prefab using Guid(1185e4e2405115b4787653cc79918b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafe2f18274bb67f02cc0d2b9e3c565f') in 0.003490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.181386 seconds.
+  path: Assets/Objects/Elements/Circle 48.prefab
+  artifactKey: Guid(243ca5c2f4a194d4a8d89b7a842c3da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 48.prefab using Guid(243ca5c2f4a194d4a8d89b7a842c3da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e406b9ae783b705b5483b312bbc84b') in 0.003629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.193245 seconds.
+  path: Assets/Objects/Elements/Circle 49.prefab
+  artifactKey: Guid(83bb7695a93cfb9458d69573a84b11f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 49.prefab using Guid(83bb7695a93cfb9458d69573a84b11f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c59220afa6c3b6abb9586460e368bf') in 0.003462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.192253 seconds.
+  path: Assets/Objects/Elements/Circle 50.prefab
+  artifactKey: Guid(0e8aa9fd7d66f1d4eb6782343e107d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 50.prefab using Guid(0e8aa9fd7d66f1d4eb6782343e107d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debb70cb2e8e0f9b87405f4ca71a7ef2') in 0.003657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.211465 seconds.
+  path: Assets/Objects/Elements/Circle 51.prefab
+  artifactKey: Guid(fe05b7ce05252054d926b95c9a3fc93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 51.prefab using Guid(fe05b7ce05252054d926b95c9a3fc93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681531a977c5b5438f3a64a76c92b41a') in 0.003295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.185103 seconds.
+  path: Assets/Objects/Elements/Circle 52.prefab
+  artifactKey: Guid(7d22d06006ecdec4ca978e9b75a8fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 52.prefab using Guid(7d22d06006ecdec4ca978e9b75a8fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831f3a0c812924fccbac1fc0f1f57ca5') in 0.003325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.194470 seconds.
+  path: Assets/Objects/Elements/Circle 53.prefab
+  artifactKey: Guid(60ac2fa4aaa36b64cbea67cebff57f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 53.prefab using Guid(60ac2fa4aaa36b64cbea67cebff57f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82dfa85b7e3b84386723884992896bc1') in 0.003383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.165677 seconds.
+  path: Assets/Objects/Elements/Circle 54.prefab
+  artifactKey: Guid(fe5721102bb30bd46837471cd0d49050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 54.prefab using Guid(fe5721102bb30bd46837471cd0d49050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0130b9c0e170abf3bc6e67f3647318') in 0.003301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.182733 seconds.
+  path: Assets/Objects/Elements/Circle 55.prefab
+  artifactKey: Guid(fc8de924d7ab8a44d8d6a7a2a9a9bf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 55.prefab using Guid(fc8de924d7ab8a44d8d6a7a2a9a9bf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a4b09b42511453bc4af89ddf910785') in 0.003462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.185890 seconds.
+  path: Assets/Objects/Elements/Circle 56.prefab
+  artifactKey: Guid(217608ad41cac76419191630a5025a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 56.prefab using Guid(217608ad41cac76419191630a5025a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f053b1b857c24d07689b92a8f233a5') in 0.003827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.184542 seconds.
+  path: Assets/Objects/Elements/Circle 57.prefab
+  artifactKey: Guid(9caaa92bcfc777749ac80016504494f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 57.prefab using Guid(9caaa92bcfc777749ac80016504494f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76679ee4391f8b33b78aee9a1a4810c') in 0.003914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.181164 seconds.
+  path: Assets/Objects/Elements/Circle 58.prefab
+  artifactKey: Guid(769567f98dea1db4d86ab8db4544dfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 58.prefab using Guid(769567f98dea1db4d86ab8db4544dfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe769d30b2a5dd947a58f049576999a1') in 0.003593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.190273 seconds.
+  path: Assets/Objects/Elements/Circle 59.prefab
+  artifactKey: Guid(5b9bea7b929ea5b4ca0427e9b4b5584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 59.prefab using Guid(5b9bea7b929ea5b4ca0427e9b4b5584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c5b362fb94c6311666a82df7d00be3') in 0.003599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.175007 seconds.
+  path: Assets/Objects/Elements/Circle 60.prefab
+  artifactKey: Guid(0498770bb956b8243ad8bdfbc80bf6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 60.prefab using Guid(0498770bb956b8243ad8bdfbc80bf6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b84e1db6db55206a858c15bd6837bf6') in 0.003718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.178745 seconds.
+  path: Assets/Objects/Elements/Circle 61.prefab
+  artifactKey: Guid(3b72887600a03554f8e0f9eb7cd646c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 61.prefab using Guid(3b72887600a03554f8e0f9eb7cd646c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ffcf7122ebe648573573b5949e5426') in 0.003763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.183268 seconds.
+  path: Assets/Objects/Elements/Circle 62.prefab
+  artifactKey: Guid(b97fc2e8c5d5a0845a3d5c1ee0a7e7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 62.prefab using Guid(b97fc2e8c5d5a0845a3d5c1ee0a7e7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a009d38ba47a85a2f3e73dd1b665d1e') in 0.003621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.172783 seconds.
+  path: Assets/Objects/Elements/Circle 63.prefab
+  artifactKey: Guid(36419749aa2610c43908c59e33aad48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 63.prefab using Guid(36419749aa2610c43908c59e33aad48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58d29994708f040e4177153003caa9f') in 0.003980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.177292 seconds.
+  path: Assets/Objects/Elements/Circle 64.prefab
+  artifactKey: Guid(f37e6db89c4efac4e8b506d3e96a6c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 64.prefab using Guid(f37e6db89c4efac4e8b506d3e96a6c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5cc6a81e31ed5fa95cbe9eb0a1ba59') in 0.006280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.173907 seconds.
+  path: Assets/Objects/Elements/Circle 65.prefab
+  artifactKey: Guid(5306279db104e5a4283728e7dd8c533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 65.prefab using Guid(5306279db104e5a4283728e7dd8c533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f080c42022f51bd151c5b1ea71d0735c') in 0.004438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.187454 seconds.
+  path: Assets/Objects/Elements/Circle 66.prefab
+  artifactKey: Guid(68365972d5602904989a169edff5366d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 66.prefab using Guid(68365972d5602904989a169edff5366d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b106aa9defc01f24d844fffc9af47be') in 0.003560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.217348 seconds.
+  path: Assets/Objects/Elements/Circle 67.prefab
+  artifactKey: Guid(c9941f933c922bb4f9a7500004f1aecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 67.prefab using Guid(c9941f933c922bb4f9a7500004f1aecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6ca7e6bd2c22e8410e86c50ba585e6') in 0.003754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.198952 seconds.
+  path: Assets/Objects/Elements/Circle 68.prefab
+  artifactKey: Guid(268c1ac7d3feace43a046e60d49103af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 68.prefab using Guid(268c1ac7d3feace43a046e60d49103af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0a61108da29b95e51f55414512adb0') in 0.003502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.190744 seconds.
+  path: Assets/Objects/Elements/Circle 69.prefab
+  artifactKey: Guid(3898f6c0cbc05024fb1742243b8f5adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 69.prefab using Guid(3898f6c0cbc05024fb1742243b8f5adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a2827b19777351ac7a8ce2a5e1b4af') in 0.003738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.175490 seconds.
+  path: Assets/Objects/Elements/Circle 70.prefab
+  artifactKey: Guid(72860301bab26fa4a9d800c2ce420a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 70.prefab using Guid(72860301bab26fa4a9d800c2ce420a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7c4bef4cfbc31c815fb80493c6216c') in 0.003983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.196331 seconds.
+  path: Assets/Objects/Elements/Circle 71.prefab
+  artifactKey: Guid(c624d1e44b3b8c242bd4d11eca409da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 71.prefab using Guid(c624d1e44b3b8c242bd4d11eca409da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffe9c39f1ecf4d4802fa7983e59742b') in 0.003766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.199278 seconds.
+  path: Assets/Objects/Elements/Circle 72.prefab
+  artifactKey: Guid(6be2cb73b3cdf4c4b9648a58474f0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 72.prefab using Guid(6be2cb73b3cdf4c4b9648a58474f0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceec35d5ca18399cbd1fa4a3a7e50d2') in 0.004127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.188508 seconds.
+  path: Assets/Objects/Elements/Circle 73.prefab
+  artifactKey: Guid(3f8918582ba451d48add507751dca6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 73.prefab using Guid(3f8918582ba451d48add507751dca6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406b2a3e57309614558276e02f787005') in 0.004326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.187802 seconds.
+  path: Assets/Objects/Elements/Circle 74.prefab
+  artifactKey: Guid(2be7d18f0be19f9469181d57abf52b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 74.prefab using Guid(2be7d18f0be19f9469181d57abf52b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525c05d0aeeecad1cf477c68206c3b0b') in 0.003824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.182718 seconds.
+  path: Assets/Objects/Elements/Circle 75.prefab
+  artifactKey: Guid(f35fc84de2f479d489f05f8b924ba31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 75.prefab using Guid(f35fc84de2f479d489f05f8b924ba31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4908e3f787c82ad108a563a6957498') in 0.003682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.188777 seconds.
+  path: Assets/Objects/Elements/Circle 76.prefab
+  artifactKey: Guid(9aa00f131159ac6409ee065598bd9968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 76.prefab using Guid(9aa00f131159ac6409ee065598bd9968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acb746b9cd223b0f0f4fd7bb7fd3763') in 0.003672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.186935 seconds.
+  path: Assets/Objects/Elements/Circle 77.prefab
+  artifactKey: Guid(be56eaed87e944c46a1e05c75162a30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 77.prefab using Guid(be56eaed87e944c46a1e05c75162a30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00c3e5254dfc3dfd24f89e8190c0a69') in 0.003711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.194614 seconds.
+  path: Assets/Objects/Elements/Circle 78.prefab
+  artifactKey: Guid(0971ea9cc132d5f41ae205b62aa26c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 78.prefab using Guid(0971ea9cc132d5f41ae205b62aa26c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded7b92ab79545271a575e94b0ea0b34') in 0.003934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.198258 seconds.
+  path: Assets/Objects/Elements/Circle 79.prefab
+  artifactKey: Guid(638f7aba5d8f0ef4aaddb367362a9c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 79.prefab using Guid(638f7aba5d8f0ef4aaddb367362a9c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8736a3440fd48256feb0d76aca5c06d8') in 0.016254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.190368 seconds.
+  path: Assets/Objects/Elements/Circle 80.prefab
+  artifactKey: Guid(4d9fc633550f7564a9bd74a2e498dfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 80.prefab using Guid(4d9fc633550f7564a9bd74a2e498dfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f105a659c4f7566cdffe164e4be4712') in 0.005573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.192024 seconds.
+  path: Assets/Objects/Elements/Circle 81.prefab
+  artifactKey: Guid(653f45a079f01a243af79b42cfb47c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 81.prefab using Guid(653f45a079f01a243af79b42cfb47c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adb10a5f236aac2bb19dbda5c886033') in 0.003829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.184001 seconds.
+  path: Assets/Objects/Elements/Circle 82.prefab
+  artifactKey: Guid(863ac16304c111a4a974227cd5b2f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 82.prefab using Guid(863ac16304c111a4a974227cd5b2f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8637d9c467239c9edf24d3f512f85579') in 0.003743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.180549 seconds.
+  path: Assets/Objects/Elements/Circle 83.prefab
+  artifactKey: Guid(b7699c360814fe143b05f91641ebdc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 83.prefab using Guid(b7699c360814fe143b05f91641ebdc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a96f7bde00c51802165d4a5f477498f') in 0.004221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.172173 seconds.
+  path: Assets/Objects/Elements/Circle 84.prefab
+  artifactKey: Guid(17149d383efce22408ffd497fe2b141d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 84.prefab using Guid(17149d383efce22408ffd497fe2b141d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6442c713e3546291d6fe32ca22ada78') in 0.004335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.170703 seconds.
+  path: Assets/Objects/Elements/Circle 85.prefab
+  artifactKey: Guid(08139cc4219b3864fafeb0bfd8a0531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 85.prefab using Guid(08139cc4219b3864fafeb0bfd8a0531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5b989449abf5148c0e54784a3627f8') in 0.004310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.181178 seconds.
+  path: Assets/Objects/Elements/Circle 86.prefab
+  artifactKey: Guid(9d01bd44dcd81dc4eb41aea47a897a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 86.prefab using Guid(9d01bd44dcd81dc4eb41aea47a897a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab311d3107dbe24516099fcd163bd08') in 0.005024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.295784 seconds.
+  path: Assets/Objects/Elements/Circle 87.prefab
+  artifactKey: Guid(1f772f4a88736b84ea2848f4479e36c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 87.prefab using Guid(1f772f4a88736b84ea2848f4479e36c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9a63ae98150f8632d801961dd18e67') in 0.004052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.225437 seconds.
+  path: Assets/Objects/Elements/Circle 88.prefab
+  artifactKey: Guid(94e67d76718f46b408e5bdacbe22174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 88.prefab using Guid(94e67d76718f46b408e5bdacbe22174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9f9f64ced1e926f4c4a952267889eb') in 0.004052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.264242 seconds.
+  path: Assets/Objects/Elements/Circle 89.prefab
+  artifactKey: Guid(7b29a84c29e307e42952f9343d0c04cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 89.prefab using Guid(7b29a84c29e307e42952f9343d0c04cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9decd05ad6fc34d286025a83d88fc325') in 0.004078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.197324 seconds.
+  path: Assets/Objects/Elements/Circle 90.prefab
+  artifactKey: Guid(7f58ba5edd30dce4f8a116a3bab645b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 90.prefab using Guid(7f58ba5edd30dce4f8a116a3bab645b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b639dba53f785a485bfe4c57d0d6d88f') in 0.006731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.181656 seconds.
+  path: Assets/Objects/Elements/Circle 91.prefab
+  artifactKey: Guid(ed0e0bad9a6c9cf4088d423b2153b519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 91.prefab using Guid(ed0e0bad9a6c9cf4088d423b2153b519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010d579935b37532e9025871559e149d') in 0.004194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.156246 seconds.
+  path: Assets/Objects/Elements/Circle 92.prefab
+  artifactKey: Guid(e5793bcbb1a50664684e3a8c10e99142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 92.prefab using Guid(e5793bcbb1a50664684e3a8c10e99142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30becd710b37ece938e2abce7281fb1c') in 0.005163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.163832 seconds.
+  path: Assets/Objects/Elements/Circle 93.prefab
+  artifactKey: Guid(665ab278709cf1743bb07675914a76b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 93.prefab using Guid(665ab278709cf1743bb07675914a76b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084f7804341e29204e5ad0cf413ed678') in 0.004095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.172053 seconds.
+  path: Assets/Objects/Elements/Circle 94.prefab
+  artifactKey: Guid(266ad5b76728cb84ea96bd878d7281f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 94.prefab using Guid(266ad5b76728cb84ea96bd878d7281f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3172096cee096de311105ba1600f02d') in 0.004575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.211927 seconds.
+  path: Assets/Objects/Elements/Circle 95.prefab
+  artifactKey: Guid(24d9ddfb630d14d4abd56291d7a60af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 95.prefab using Guid(24d9ddfb630d14d4abd56291d7a60af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93e29656f8b1d9fbac481e4391e8881') in 0.004568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.129050 seconds.
+  path: Assets/Objects/Elements/Circle 96.prefab
+  artifactKey: Guid(64894f368825c564c97292b31e5d7c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 96.prefab using Guid(64894f368825c564c97292b31e5d7c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abfae3aa852a0fb7c72a2c525e28306') in 0.003694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.171956 seconds.
+  path: Assets/Objects/Elements/Circle 97.prefab
+  artifactKey: Guid(f19ddfbaf1eef6649a1d1c61fe201ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 97.prefab using Guid(f19ddfbaf1eef6649a1d1c61fe201ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae83d662215bad6bb8499f6605ab53e0') in 0.003826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.188652 seconds.
+  path: Assets/Objects/Elements/Circle 98.prefab
+  artifactKey: Guid(ec1153d38713d5f4fa74635b56603b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 98.prefab using Guid(ec1153d38713d5f4fa74635b56603b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985071509810e8752b146ba548834d87') in 0.003535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.165461 seconds.
+  path: Assets/Objects/Elements/Circle 99.prefab
+  artifactKey: Guid(7eaba62f2629a804a81de08a189ec7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 99.prefab using Guid(7eaba62f2629a804a81de08a189ec7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a26feeb43634663394a350d60396c94') in 0.003391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.178329 seconds.
+  path: Assets/Objects/Elements/Circle 100.prefab
+  artifactKey: Guid(cc2bfd15f8e7fd543bd5aa799991e674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 100.prefab using Guid(cc2bfd15f8e7fd543bd5aa799991e674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f410f275b36cedcbd4e59d4c1d5a7ee9') in 0.003737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.194501 seconds.
+  path: Assets/Objects/Elements/Circle 101.prefab
+  artifactKey: Guid(a90350d32f236614a8f6cc6a24c90f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 101.prefab using Guid(a90350d32f236614a8f6cc6a24c90f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ac318605598acb8f63cc52acf6e3c3') in 0.003549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.189340 seconds.
+  path: Assets/Objects/Elements/Circle 102.prefab
+  artifactKey: Guid(50fc3295d67387243b5cce01dc38dbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 102.prefab using Guid(50fc3295d67387243b5cce01dc38dbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4823a0f37b35d1a059e2fde15add6c20') in 0.003822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.184327 seconds.
+  path: Assets/Objects/Elements/Circle 103.prefab
+  artifactKey: Guid(cb7f7107025c4ba4fae0c57a44f0102f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 103.prefab using Guid(cb7f7107025c4ba4fae0c57a44f0102f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36045e7536ab267ce9851a3ad8b8b002') in 0.003592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.185494 seconds.
+  path: Assets/Objects/Elements/Circle 104.prefab
+  artifactKey: Guid(1bb3ee2d7c2e2aa4f8e4f1c4cfe17531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 104.prefab using Guid(1bb3ee2d7c2e2aa4f8e4f1c4cfe17531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacbe39718bcf4b5c470fcf402d08f63') in 0.003924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.186612 seconds.
+  path: Assets/Objects/Elements/Circle 105.prefab
+  artifactKey: Guid(6cc66b001384f4e4587ec56ac744f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 105.prefab using Guid(6cc66b001384f4e4587ec56ac744f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cd24f1875cadcc8aa8f4225c4ea1da') in 0.004345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.177813 seconds.
+  path: Assets/Objects/Elements/Circle 106.prefab
+  artifactKey: Guid(8e907af3d50b45948afd0b4d24b7cd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 106.prefab using Guid(8e907af3d50b45948afd0b4d24b7cd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407290bbd7de0ee8883a00e0aff061c4') in 0.003611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.181626 seconds.
+  path: Assets/Objects/Elements/Circle 107.prefab
+  artifactKey: Guid(c34ae55ef9ae7ad4f8faf10195c2c702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 107.prefab using Guid(c34ae55ef9ae7ad4f8faf10195c2c702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8ab4e18189a06a1f950627c5367ee6') in 0.004638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.195196 seconds.
+  path: Assets/Objects/Elements/Circle 108.prefab
+  artifactKey: Guid(3271c70537b951d4eaa76a48f7f3c3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 108.prefab using Guid(3271c70537b951d4eaa76a48f7f3c3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3066a7df2d50a2e5b67f012074864e') in 0.003616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.193648 seconds.
+  path: Assets/Objects/Elements/Circle 109.prefab
+  artifactKey: Guid(bc76cc10f5edd33439ebd7261bee5bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 109.prefab using Guid(bc76cc10f5edd33439ebd7261bee5bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a881986ac34a2b3a0e8c0c2190d488a9') in 0.003524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.175477 seconds.
+  path: Assets/Objects/Elements/Circle 110.prefab
+  artifactKey: Guid(8c65779f99b5a3e40ad2d8d05a9b7c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 110.prefab using Guid(8c65779f99b5a3e40ad2d8d05a9b7c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6048750c4e22ead551b44c421c1073') in 0.003315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.183054 seconds.
+  path: Assets/Objects/Elements/Circle 111.prefab
+  artifactKey: Guid(22643cd0a8926ba4ea5f739cdde6951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 111.prefab using Guid(22643cd0a8926ba4ea5f739cdde6951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce24f6ded8b7dbef14b17330099fae04') in 0.003371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.182571 seconds.
+  path: Assets/Objects/Elements/Circle 112.prefab
+  artifactKey: Guid(fa81cf7652ad2424fb6cf92eee10e77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 112.prefab using Guid(fa81cf7652ad2424fb6cf92eee10e77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b7be91bb20bcab6a3dbe303ca1ec22') in 0.003496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.198284 seconds.
+  path: Assets/Objects/Elements/Circle 113.prefab
+  artifactKey: Guid(f7f962c84d5c40242abf5f1c5b08db08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 113.prefab using Guid(f7f962c84d5c40242abf5f1c5b08db08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b437dbaa3abe9f5ed5c1a8ea7128016') in 0.004307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.182749 seconds.
+  path: Assets/Objects/Elements/Circle 114.prefab
+  artifactKey: Guid(257dc77ceb1bdb24994e5d5008682e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 114.prefab using Guid(257dc77ceb1bdb24994e5d5008682e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c02ccce7c4cc700f876181c9ef2403f') in 0.003624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.190927 seconds.
+  path: Assets/Objects/Elements/Circle 115.prefab
+  artifactKey: Guid(e9708137ec3428f4384d2096b42fade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 115.prefab using Guid(e9708137ec3428f4384d2096b42fade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc6413a5eb9b4944b7e5aa383613586') in 0.003495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.220825 seconds.
+  path: Assets/Objects/Elements/Circle 116.prefab
+  artifactKey: Guid(ab154b0dfe6f2824688654cb7bd8dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 116.prefab using Guid(ab154b0dfe6f2824688654cb7bd8dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831054be9c9fe1f7b18cd16e2b416d54') in 0.003560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.275348 seconds.
+  path: Assets/Objects/Elements/Circle 117.prefab
+  artifactKey: Guid(1deabd35c5bf538449fe641e3e77c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 117.prefab using Guid(1deabd35c5bf538449fe641e3e77c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c6938bbf3cd55bd2049683f1351b71') in 0.003587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.210150 seconds.
+  path: Assets/Objects/Elements/Circle 118.prefab
+  artifactKey: Guid(d7f7527a74182994da435cb84c1a6ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Circle 118.prefab using Guid(d7f7527a74182994da435cb84c1a6ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6362d1bc421b7df0a009f3e6035ca19') in 0.004090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 326.726429 seconds.
+  path: Assets/Objects/Elements/Hydrogen.prefab
+  artifactKey: Guid(2b35f263c05eb0b4dae8c57fb82ef800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Hydrogen.prefab using Guid(2b35f263c05eb0b4dae8c57fb82ef800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99b84216d82732ffb55359204adaa29') in 0.015827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 216.931441 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
+  artifactKey: Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png using Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3821342e46ed88d767d1d31ece1cc4') in 0.027989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.055112 seconds.
+  path: Assets/Objects/Elements/Hydrogen.prefab
+  artifactKey: Guid(2b35f263c05eb0b4dae8c57fb82ef800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Hydrogen.prefab using Guid(2b35f263c05eb0b4dae8c57fb82ef800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7b4faef83f21ec21528a85bfcfef6d') in 0.008925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 69.080516 seconds.
+  path: Assets/Objects/Elements/Helium.prefab
+  artifactKey: Guid(de370c91669ce0c40a445f212179edd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Helium.prefab using Guid(de370c91669ce0c40a445f212179edd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272d76f2eacbc4cb3032448a8822ef40') in 0.005127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 102.564657 seconds.
+  path: Assets/Objects/Elements/Helium.prefab
+  artifactKey: Guid(de370c91669ce0c40a445f212179edd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Helium.prefab using Guid(de370c91669ce0c40a445f212179edd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945a24deaeaa94f49efd16c9700ce6be') in 0.029581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 31.794771 seconds.
+  path: Assets/Objects/Elements/AlkalineMetals
+  artifactKey: Guid(db810c658ce0c2345bc88d1d6c14d55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/AlkalineMetals using Guid(db810c658ce0c2345bc88d1d6c14d55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407d3371809aaa2c1ec1a9c5d76ac5f3') in 0.000337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.086372 seconds.
+  path: Assets/Objects/Elements/NobleGas
+  artifactKey: Guid(b306d134b1d011241a5314b7f747c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/NobleGas using Guid(b306d134b1d011241a5314b7f747c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce5c489f1ebcc23f079929abbcb958c') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.412786 seconds.
+  path: Assets/Objects/Elements/NobleGases
+  artifactKey: Guid(b306d134b1d011241a5314b7f747c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/NobleGases using Guid(b306d134b1d011241a5314b7f747c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a56ee4ca7a6ad5d45ed3cd19b9f4ee') in 0.000301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.630114 seconds.
+  path: Assets/Objects/Elements/NobleGasses
+  artifactKey: Guid(b306d134b1d011241a5314b7f747c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/NobleGasses using Guid(b306d134b1d011241a5314b7f747c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111bed848c42e65461fcac5bdfe07608') in 0.000298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.681990 seconds.
+  path: Assets/Objects/Elements/AlkalineEarthMetals
+  artifactKey: Guid(87ddb0903f70ec14fb1cb6652d712d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/AlkalineEarthMetals using Guid(87ddb0903f70ec14fb1cb6652d712d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00750e4b64d014fb6014dea95d81a57') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.542244 seconds.
+  path: Assets/Objects/Elements/Metals
+  artifactKey: Guid(23bfb3b363622924b89d086c7380e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Metals using Guid(23bfb3b363622924b89d086c7380e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a21e31deeaf9803b78de9af3ca2e6b') in 0.000319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.110654 seconds.
+  path: Assets/Objects/Elements/NonMetals
+  artifactKey: Guid(cd200777f3d86024fbc7854162952e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/NonMetals using Guid(cd200777f3d86024fbc7854162952e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40a7a1cbb48901625a32b95a61317bb') in 0.000302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.444500 seconds.
+  path: Assets/Objects/Elements/Halogens
+  artifactKey: Guid(7f79fe517b49aea43b7cb06e1044e7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Halogens using Guid(7f79fe517b49aea43b7cb06e1044e7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88276ce6c73fc480ce3f043137b52dd6') in 0.000331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.105894 seconds.
+  path: Assets/Objects/Elements/Metalloids
+  artifactKey: Guid(f8985f496f1e20d4c98dee44c2b8e465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Metalloids using Guid(f8985f496f1e20d4c98dee44c2b8e465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982155461ac5555b983f336250eb19f6') in 0.000286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.102205 seconds.
+  path: Assets/Objects/Elements/TransitionMetals
+  artifactKey: Guid(23bfb3b363622924b89d086c7380e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/TransitionMetals using Guid(23bfb3b363622924b89d086c7380e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db655234dd59193ba06fea55787554e9') in 0.000289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.553250 seconds.
+  path: Assets/Objects/Elements/PostTransitionMetalls
+  artifactKey: Guid(ae8dceb4cd1ac2c448b45296bcda16d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/PostTransitionMetalls using Guid(ae8dceb4cd1ac2c448b45296bcda16d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7a305f577bddc92253567d42c3de3d') in 0.000281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.873975 seconds.
+  path: Assets/Objects/Elements/Post-TransitionMetals
+  artifactKey: Guid(ae8dceb4cd1ac2c448b45296bcda16d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Post-TransitionMetals using Guid(ae8dceb4cd1ac2c448b45296bcda16d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0237950803b292ea05598f8822947ad') in 0.000290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.630252 seconds.
+  path: Assets/Objects/Elements/Lanthanides
+  artifactKey: Guid(a5b5dfbf85b44a24bacd9f7be84483fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Lanthanides using Guid(a5b5dfbf85b44a24bacd9f7be84483fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36b27cf9a3e952d234e53d113e9cacd') in 0.000279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.916715 seconds.
+  path: Assets/Objects/Elements/Actinides
+  artifactKey: Guid(e679d7b0649f9c74793bc5c246bf911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Actinides using Guid(e679d7b0649f9c74793bc5c246bf911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4583cfe402690622c97bd4762d15b4') in 0.000304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 338.330400 seconds.
+  path: Assets/Objects/Elements/Lithium.prefab
+  artifactKey: Guid(a60b953a90b326549be7e6b75ef9cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Lithium.prefab using Guid(a60b953a90b326549be7e6b75ef9cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79e6d415db625834e2748519d6eb1d5') in 0.006937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 60.407607 seconds.
+  path: Assets/Objects/Elements/AlkalineMetals/Lithium.prefab
+  artifactKey: Guid(a60b953a90b326549be7e6b75ef9cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/AlkalineMetals/Lithium.prefab using Guid(a60b953a90b326549be7e6b75ef9cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434dce2a83aa49351afa83809fdbdf13') in 0.004997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 63.638197 seconds.
+  path: Assets/Objects/Elements/AlkalineMetals/Lithium.prefab
+  artifactKey: Guid(a60b953a90b326549be7e6b75ef9cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/AlkalineMetals/Lithium.prefab using Guid(a60b953a90b326549be7e6b75ef9cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0e3e8c5331e759ad676bc9708bbb18') in 0.005397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 44.880759 seconds.
+  path: Assets/Objects/Elements/Beryllium.prefab
+  artifactKey: Guid(a7269f70d4ad234409ef5599d43d8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/Beryllium.prefab using Guid(a7269f70d4ad234409ef5599d43d8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff08655193b744dcb85151a871ddf337') in 0.012373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 51.567712 seconds.
+  path: Assets/Objects/Elements/AlkalineEarthMetals/Beryllium.prefab
+  artifactKey: Guid(a7269f70d4ad234409ef5599d43d8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/AlkalineEarthMetals/Beryllium.prefab using Guid(a7269f70d4ad234409ef5599d43d8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3946ed170ca0ee04d2ec5c4d83824cd4') in 0.006485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 35.581295 seconds.
+  path: Assets/Objects/Elements/AlkalineEarthMetals/Beryllium.prefab
+  artifactKey: Guid(a7269f70d4ad234409ef5599d43d8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/AlkalineEarthMetals/Beryllium.prefab using Guid(a7269f70d4ad234409ef5599d43d8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2471de049a0e53e55395306c290d2320') in 0.003749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 106.896132 seconds.
+  path: Assets/Objects/Elements/AlkalineEarthMetals/Beryllium.prefab
+  artifactKey: Guid(a7269f70d4ad234409ef5599d43d8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Elements/AlkalineEarthMetals/Beryllium.prefab using Guid(a7269f70d4ad234409ef5599d43d8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081dee84cc6b4ff9bf4bdd1453d10534') in 0.004089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11

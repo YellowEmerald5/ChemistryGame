@@ -57,9 +57,22 @@ public class CollisionMerger : MonoBehaviour
 
     private void MergeAttributes(GameObject obj,int i)
     {
-        var thisSubstance = GetComponent<SubstancePropperties>();
-        var thatSubstance = obj.GetComponent<SubstancePropperties>();
-        if (thisSubstance.property.Equals(thatSubstance.property))
+        var thisSubstance = GetComponent<SubstanceProperties>();
+        var a = thisSubstance.symbol;
+        var b = thisSubstance.density;
+        var c = thisSubstance.electronegativity;
+        var d = thisSubstance.electronAffinity;
+        var e = thisSubstance.shellLevel;
+        var z = thisSubstance.shells;
+        var x = thisSubstance.electronCountsPerShell;
+        var f = thisSubstance.state;
+        var g = thisSubstance.atomicMass;
+        var h = thisSubstance.ionizationEnergy;
+        var j = thisSubstance.meltingPoint;
+        var k = thisSubstance.oxidizationStates;
+        var l = thisSubstance.boilingPoint;
+        var thatSubstance = obj.GetComponent<SubstanceProperties>();
+        if (thisSubstance.symbol.Equals(thatSubstance.symbol))
         {
             return;
         }
@@ -67,7 +80,7 @@ public class CollisionMerger : MonoBehaviour
         var perLow = 0f;
         var m = i + 0f;
         var perHigh = 1f;
-        var newCol = new Color();
+        /*var newCol = new Color();
         var colThis = thisSubstance.c;
         var colThat = thatSubstance.c;
         newCol.a = 1;
@@ -127,6 +140,6 @@ public class CollisionMerger : MonoBehaviour
 
         thisSubstance.c = newCol;
         var rend = GetComponent<SpriteRenderer>();
-        rend.color = newCol;
+        rend.color = newCol;*/
     }
 }
